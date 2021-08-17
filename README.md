@@ -16,7 +16,7 @@ webView.webViewClient = WebViewClient()
 El código anterior no soporta el uso de redirecciones hacia ninguna app, por lo que si utilizas
 WebPay dentro de un WebView con esa referencia, obtendras un "ERR_UNKNOWN_URL_SCHEME"
 
-<img alt="ERR_UNKNOWN_URL_SCHEME" src="screen/dynamic_link_error.png" width="80%" />
+<img alt="ERR_UNKNOWN_URL_SCHEME" src="screens/dynamic_link_error.png" width="80%" />
 
 ### Solución propuesta
 Para solucionar el problema de redirecciones dentro del WebView, se crea la clase llamada 
